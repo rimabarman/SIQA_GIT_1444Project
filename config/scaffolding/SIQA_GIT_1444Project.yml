@@ -8,6 +8,12 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: SIQAJDBCAdapterTests
+  version: "1.0"
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: rimabarman
+  gitBranch: main
+- name: DADA_GlobalVariable1
   gitServerName: rimaSCName
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: rimabarman
@@ -16,6 +22,8 @@ services:
 - serviceName: project.siqa_git_1444.integrations:Sum
   packages:
   - name: SIQA_GIT_1444Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -34,6 +42,8 @@ services:
 - serviceName: project.siqa_git_1444.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_1444Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
